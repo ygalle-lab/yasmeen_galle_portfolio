@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technology-facilitated abuse research | Yasmeen Galle</title>
+<meta name="description" content="Full case study: research on how intimate-partner violence support staff experience helping survivors of technology-facilitated abuse, and a co-design study on AI image manipulation, by Yasmeen Galle.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<!--
+  HOW TO EDIT
+  1. Dashed pink outlines (class "todo") mark placeholders. Replace the text, then delete the class.
+  2. To add an image, replace a <figure class="slot">...</figure> block with:
+     <figure><img src="your-file.png" alt="Describe the image"><figcaption>Short caption</figcaption></figure>
+  3. Keep participant details anonymous. Do not include names, quotes that could identify someone, or organization names.
+-->
+<style>
+:root{
+  --bg:#121629; --panel:#1a2038; --line:#2c3558; --text:#eceff8; --muted:#a3abc7;
+  --accent:#9b2247; --accent-text:#f08ba6; --on-accent:#ffffff;
+  --display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1.125rem/1.65 var(--body)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent-text);outline-offset:3px;border-radius:2px}
+.wrap{max-width:820px;margin:0 auto;padding:0 1.5rem}
+nav{border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:.9rem;padding-bottom:.9rem}
+nav a{text-decoration:none;font-weight:600}
+nav .name{font:800 1.05rem var(--display)}
+nav .back{color:var(--accent-text)}
+nav .back:hover{text-decoration:underline}
+header.top{padding:4rem 0 2.5rem}
+h1{font:800 clamp(2rem,5.5vw,3.4rem)/1.08 var(--display);letter-spacing:-.02em;margin:0 0 1rem}
+.lede{color:var(--muted);max-width:58ch;margin:0}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+h2{font:800 1.5rem/1.2 var(--display);margin:0 0 .8rem}
+h3{font:800 1.15rem/1.3 var(--display);margin:1.8rem 0 .4rem}
+p,ul{max-width:64ch;margin:0 0 1.1rem}
+ul{padding-left:1.2rem}
+li{margin-bottom:.4rem}
+dl{display:grid;grid-template-columns:110px 1fr;gap:.5rem 1.5rem;font-size:1rem;margin:0}
+dt{font-weight:600;color:var(--accent-text)}
+dd{margin:0;color:var(--muted)}
+.mark{background:linear-gradient(transparent 58%,rgba(155,34,71,.75) 58%);padding:0 .1em}
+.todo{outline:2px dashed var(--accent-text);outline-offset:3px;color:var(--accent-text)}
+figure{margin:1.8rem 0}
+figure img{width:100%;height:auto;border-radius:8px;border:1px solid var(--line);display:block}
+figcaption{font-size:.95rem;color:var(--muted);margin-top:.5rem}
+.slot{background:var(--panel);border:2px dashed var(--line);border-radius:8px;padding:2.5rem 1.5rem;color:var(--muted);font-size:1rem}
+.btns{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:1rem}
+.btn{display:inline-block;padding:.8rem 1.4rem;font-weight:600;text-decoration:none;border:2px solid var(--accent-text);border-radius:6px;transition:transform .15s}
+.btn.solid{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.btn:hover{transform:translateY(-2px)}
+footer{padding:2rem 0;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+@media (max-width:640px){dl{grid-template-columns:1fr;gap:.1rem}dt{margin-top:.7rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="name" href="index.html">Yasmeen Galle</a>
+    <a class="back" href="index.html#work">Back to portfolio</a>
+  </div>
+</nav>
+
+<header class="top">
+  <div class="wrap">
+    <h1>Supporting survivors of technology-facilitated abuse: the staff perspective, and tools that protect people from AI image abuse</h1>
+    <p class="lede">Two connected projects on intimate-partner violence (IPV) and technology-facilitated abuse (TFA): a completed study of the challenges IPV support staff face, and current work on need finding and co-design for tools that protect people from AI image manipulation.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>At a glance</h2>
+    <dl>
+      <dt>Role</dt><dd>Research Intern</dd>
+      <dt>Where</dt><dd>Carnegie Mellon University, School of Computer Science</dd>
+      <dt>Timeline</dt><dd>May 2025 to present</dd>
+      <dt>Tools</dt><dd>MaxQDA, Qualtrics, Excel</dd>
+      <dt>Project 1</dt><dd>Challenges faced by IPV support staff. Study complete; paper submitted for peer review.</dd>
+      <dt>Project 2</dt><dd>Need finding and co-design for AI image protection tools. Current work.</dd>
+    </dl>
+    <p class="todo" style="margin-top:1rem">[Before publishing, confirm with your advisor which details of the study and the paper you may share publicly.]</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Project 1: Challenges faced by IPV support staff</h2>
+
+    <h3>Background</h3>
+    <p>Support staff are often the first responders for survivors facing technology-facilitated abuse, and they shape how interventions work in practice. Prior work documented survivors' experiences in depth, but much less was known about the challenges and risks staff face themselves.</p>
+    <p class="todo">[Add what you want readers to know about why this gap mattered to you.]</p>
+
+    <h3>Research questions</h3>
+    <ul>
+      <li>What TFA training do IPV staff receive, and what gaps remain?</li>
+      <li>How do staff support clients experiencing TFA, and what challenges and needs arise in that work?</li>
+      <li>What security and privacy risks do staff and their organizations face from technology-facilitated harms?</li>
+    </ul>
+
+    <h3>Methods</h3>
+    <p>We partnered with a local IPV organization and co-created the study design with its leaders. Participants were staff from across the organization, including its legal, hotline, shelter, and counseling teams.</p>
+    <ul>
+      <li><span class="mark">Weekly surveys:</span> 55 responses from 12 staff over six weeks, 33 of which described TFA incidents. They captured what survivors reported, how staff responded, and how confident staff felt.</li>
+      <li><span class="mark">Semi-structured interviews:</span> 15 staff members, about an hour each, covering their training, support challenges, resources, and harms they face in their work.</li>
+    </ul>
+    <p class="todo">[Add your own part in the work, such as taking interview notes, coding, or analyzing survey data. Check this against what the paper credits you with.]</p>
+
+    <h3>Analysis</h3>
+    <p>We used thematic analysis. Two researchers built a codebook, refined it through discussion, and applied it to the full dataset. We then grouped codes into higher-order themes. MaxQDA supported the coding and frequency counts, and survey data were analyzed alongside the interview themes.</p>
+
+    <h3>Findings</h3>
+    <ul>
+      <li><strong>Training gaps.</strong> Most staff had no TFA-specific training. Where they had some, it covered harms they already knew about and gave little guidance on protection or diagnosis, and it quickly felt out of date.</li>
+      <li><strong>A three-stage process.</strong> Staff described diagnosing the problem, intervening, and following up. Each stage had obstacles, from unfamiliar technology and surveillance of survivors' devices to few chances to learn whether advice worked.</li>
+      <li><strong>Where confidence was lowest.</strong> Staff felt least able to address excessive contact, hacking, and surveillance.</li>
+      <li><strong>Harms to staff.</strong> Staff and their organizations face harassment, fear of being identified or located, and attacks on their systems, often with little guidance on protecting themselves.</li>
+    </ul>
+    <figure class="slot"><span class="todo">[Add image: your research poster or a simple diagram, with nothing that could identify participants or the organization]</span></figure>
+
+    <h3>Design implications</h3>
+    <ul>
+      <li>Training that balances awareness of harms with practical guidance on staying safely connected.</li>
+      <li>Tools that help staff diagnose problems remotely, such as structured prompts or checklists.</li>
+      <li>Lightweight follow-up and peer support to reduce uncertainty and burnout.</li>
+      <li>Practical security guidance for staff and organizations.</li>
+    </ul>
+
+    <h3>What comes next</h3>
+    <p>We are looking more closely at the downstream harms staff face, and a paper on these findings has been submitted for peer review. <span class="todo">[Confirm this wording with your advisor.]</span></p>
+    <p>I also presented the work as research posters at the CRA Undergraduate to PhD Conference and the CMU REU Poster Session.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Project 2: Need finding and co-design for AI image protection tools</h2>
+    <p><strong>Current work.</strong> My role is to support need finding and co-design.</p>
+
+    <h3>Background</h3>
+    <p>AI-generated non-consensual intimate imagery is one of the most urgent and least addressed privacy harms of the generative-AI era. Commercially available tools and image models with weak safeguards make it easy for bad actors to create realistic fake images of real people, with serious consequences for those depicted.</p>
+
+    <h3>The gap</h3>
+    <p>Machine learning researchers have built technical tools that help people hide or protect their photos from AI manipulation, but survivors have largely not benefited from this work. The research has mostly aimed at making the attacks more effective and less visible, rather than evaluating whether the tools work for the people who need them. Early results from an ongoing audit suggest that nearly none of these tools have a graphical interface, and that those that do were not co-designed with affected communities or usability tested with non-expert users.</p>
+
+    <h3>The plan</h3>
+    <ul>
+      <li><strong>Need finding:</strong> a systematic audit of existing anti-manipulation tools.</li>
+      <li><strong>Co-design:</strong> eliciting needs and design goals with education facilitators, survivors, and general users.</li>
+      <li><strong>Development and evaluation:</strong> a later phase to build a mobile or desktop app for locally applying protective filters to photos, and to evaluate how well it works and how usable it is for people at heightened risk, people who have experienced image manipulation, and people who are broadly concerned about it.</li>
+    </ul>
+    <figure class="slot"><span class="todo">[Add image: a plan diagram or audit chart, if you are able to share one]</span></figure>
+    <p class="todo">[Add what you are contributing to the audit and the co-design planning, in one or two sentences.]</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What I learned</h2>
+    <p class="todo">[Add 2-3 sentences on what these projects taught you about research, working on sensitive topics, or designing with the people affected.]</p>
+    <div class="btns">
+      <a class="btn solid" href="index.html#work">Back to portfolio</a>
+      <a class="btn" href="mailto:yasmeengalle@gmail.com">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Yasmeen Galle, Springfield, VA. Master of Science in Human-Computer Interaction, University of Maryland.</div>
+</footer>
+
+</body>
+</html>
